@@ -57,15 +57,17 @@ const Navbar = ({
           ))}
           
           <div className="relative group">
-            <button className="flex items-center text-slate-300 hover:text-white space-x-1 rtl:space-x-reverse">
+            <button className="flex items-center text-slate-300 hover:text-white space-x-1 rtl:space-x-reverse py-2">
               <Globe size={18} />
               <span className="uppercase">{lang}</span>
             </button>
             {/* Language Dropdown */}
-            <div className="absolute top-full right-0 mt-2 w-24 bg-white rounded-xl shadow-xl overflow-hidden hidden group-hover:block transition-all">
-              <button onClick={() => setLang('en')} className="block w-full text-left px-4 py-2 hover:bg-slate-100 text-slate-800 text-sm">English</button>
-              <button onClick={() => setLang('fr')} className="block w-full text-left px-4 py-2 hover:bg-slate-100 text-slate-800 text-sm">Français</button>
-              <button onClick={() => setLang('ar')} className="block w-full text-right px-4 py-2 hover:bg-slate-100 text-slate-800 text-sm">العربية</button>
+            <div className="absolute top-full right-0 pt-2 w-28 hidden group-hover:block">
+              <div className="bg-white rounded-xl shadow-xl overflow-hidden">
+                <button onClick={() => setLang('en')} className="block w-full text-left px-4 py-3 hover:bg-slate-100 text-slate-800 text-sm">English</button>
+                <button onClick={() => setLang('fr')} className="block w-full text-left px-4 py-3 hover:bg-slate-100 text-slate-800 text-sm">Français</button>
+                <button onClick={() => setLang('ar')} className="block w-full text-right px-4 py-3 hover:bg-slate-100 text-slate-800 text-sm">العربية</button>
+              </div>
             </div>
           </div>
         </div>
