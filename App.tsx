@@ -40,8 +40,8 @@ const Navbar = ({
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg py-3' : 'bg-slate-900 py-5'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo Area */}
-        <div className="flex items-center space-x-2 rtl:space-x-reverse">
-          <img src="/logo.png" alt="Wardcom Logo" className="h-10 w-auto" />
+        <div className="flex items-center">
+          <span className="text-2xl font-bold text-white tracking-tight">Wardcom</span>
         </div>
 
         {/* Desktop Nav */}
