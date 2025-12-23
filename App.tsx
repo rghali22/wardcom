@@ -222,9 +222,9 @@ const About = ({ lang }: { lang: Language }) => {
                     <div className="lg:w-1/2">
                         <div className="relative">
                             <div className="absolute -inset-4 bg-orange-100 rounded-3xl transform rotate-3 z-0"></div>
-                            <img 
-                                src="https://picsum.photos/800/600?grayscale" 
-                                alt="Office Team" 
+                            <img
+                                src="/image.png"
+                                alt="Office Team"
                                 className="relative z-10 rounded-3xl shadow-lg w-full object-cover h-[400px]"
                             />
                         </div>
@@ -254,7 +254,7 @@ const About = ({ lang }: { lang: Language }) => {
                         <div className="bg-slate-800 rounded-3xl p-8 flex flex-col md:flex-row gap-8 items-center border border-slate-700">
                            {/* Placeholder for Johnny Ward */}
                             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-orange-500 shadow-xl flex-shrink-0">
-                                <img src="https://picsum.photos/300/300?business" alt={t.founderTitle} className="w-full h-full object-cover" />
+                                <img src="/ward.jpg" alt={t.founderTitle} className="w-full h-full object-cover" />
                             </div>
                             <div className="text-center md:text-left rtl:md:text-right">
                                 <h4 className="text-2xl font-bold text-white mb-1">{t.founderTitle}</h4>
