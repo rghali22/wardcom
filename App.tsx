@@ -272,8 +272,7 @@ const Testimonial = ({ lang }: { lang: Language }) => {
             <div className="container mx-auto px-6 text-center max-w-4xl">
                 <h2 className="text-sm font-bold text-orange-600 uppercase tracking-widest mb-10">{t.title}</h2>
                 <div className="relative">
-                    <svg className="w-16 h-16 text-orange-200 absolute -top-8 -left-8 rtl:-right-8 rtl:left-auto transform -scale-x-100" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.321 16.067 14.929 15.513C15.537 14.959 16.485 14.682 17.773 14.682V17C17.773 17.552 17.552 18 17.11 18C16.668 18 16.447 17.552 16.447 17C16.447 16.668 16.668 16.447 16.668 16.336C16.668 15.783 16.447 15.341 16.005 15.01C15.563 14.679 15.121 14.513 14.68 14.513L14.017 21ZM5.529 21L5.529 18C5.529 16.896 5.833 16.067 6.441 15.513C7.049 14.959 7.997 14.682 9.285 14.682V17C9.285 17.552 9.064 18 8.622 18C8.18 18 7.959 17.552 7.959 17C7.959 16.668 8.18 16.447 8.18 16.336C8.18 15.783 7.959 15.341 7.517 15.01C7.075 14.679 6.633 14.513 6.191 14.513L5.529 21Z" /></svg>
-                    <p className="text-3xl md:text-4xl font-serif text-slate-800 italic relative z-10 leading-snug">
+                    <p className="text-3xl md:text-4xl font-serif text-slate-800 italic leading-snug">
                         &ldquo;{t.quote}&rdquo;
                     </p>
                 </div>
